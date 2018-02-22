@@ -1,14 +1,17 @@
 import React from 'react';
 
 class AboutPage extends React.Component {
-    render() {
-        return(
-            <div>
-                <h1>Resume Application</h1>
-                <p>About Page</p>
-            </div>
-        );
-    }
+  constructor(props, context) {
+    super(props, context);
+  }
+
+  render() {
+    return(
+      <div className='jumbotron'>
+        <h1>Pushkar Kathuria About page</h1>
+      </div>
+    )
+  }
 }
 
 export default AboutPage;

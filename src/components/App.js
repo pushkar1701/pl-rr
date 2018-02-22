@@ -1,18 +1,23 @@
 import React, {PropTypes} from 'react';
+import Header from './shared/Header.js';
 
 class App extends React.Component {
-    render() {
-        return(
-            <div className="container-fluid">
-                <h1>Resume Application</h1>
-                {this.props.children}
-            </div>
-        );
-    }
+  constructor(props, context) {
+    super(props, context);
+  }
+
+  render() {
+    return(
+      <div className='container-fluid'>
+        <Header />
+        {this.props.children}
+      </div>
+    )
+  }
 }
 
 App.propTypes = {
     children: PropTypes.object.isRequired
-};
+}
 
 export default App;
