@@ -8,6 +8,7 @@ import configureStore from './store/configureStore';
 import './assets/styles/styles.scss';
 
 const store = configureStore();
+
 render (
     <Provider store={store}>
         <Router history={browserHistory} routes={routes} />

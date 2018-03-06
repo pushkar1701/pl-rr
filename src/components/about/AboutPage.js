@@ -7,10 +7,10 @@ class AboutPage extends React.Component {
 
   render() {
     return(
-      <div className='jumbotron'>
+      <div className="jumbotron">
         <h1>Pushkar Kathuria About page</h1>
       </div>
-    )
+    );
   }
 }
 

@@ -7,8 +7,8 @@ class Parallex extends React.Component {
 
   render() {
     return(
-      <div className='parallex'></div>
-    )
+      <div className="parallex"></div>
+    );
   }
 }
 

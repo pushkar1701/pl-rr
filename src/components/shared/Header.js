@@ -5,12 +5,12 @@ const Header = (props) => {
     return (
         <nav>
             <IndexLink to="/" activeClassName="active">Home</IndexLink>
-            { " | "}
+            {" | "}
             <Link to="about" activeClassName="active">About</Link>
-            { " | "}
+            {" | "}
             <Link to="courses" activeClassName="active">Courses</Link>
         </nav>
-    )
+    );
     // return (
     //     <nav className="navbar navbar-default">
     //         <div className="container-fluid">
